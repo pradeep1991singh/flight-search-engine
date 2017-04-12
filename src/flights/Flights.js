@@ -58,7 +58,7 @@ class Flights extends Component {
     }
 
     if (searchString.returnDate && this.state.isReturnTrip) {
-      isReturnDateFlight = (moment(flight.return_date).format("D M YYYY") === moment(searchString.returnDate._d).format("D M YYYY"));
+      isReturnDateFlight = (moment(flight.return_trip.depart_date).format("D M YYYY") === moment(searchString.returnDate._d).format("D M YYYY"));
     }
 
     if (searchString.price) {

@@ -52,7 +52,7 @@ class FlightDetails extends Component {
               this.state.isReturnTrip &&
               <div className="flight__return">
                 <p className="flight__number">{returnTrip.number.toUpperCase()}</p>
-                <p className="flight__codes">{returnTrip.to_code} &raquo; {flight.from_code}</p>
+                <p className="flight__codes">{returnTrip.from_code} &raquo; {returnTrip.to_code}</p>
                 <p className="flight__depart__time">Depart: {returnTrip.depart_time}</p>
                 <p className="flight__arrive__time">Arrive: {returnTrip.arrive_time}</p>
               </div>
