@@ -84,20 +84,33 @@ You don’t have to ever use `eject`. The curated feature set is suitable for sm
 ## Search example
 
 - Return trip
+
 > Origin city         = pune
+
 > Destination city    = delhi
+
 > Dapature date       = 18/4/2017
+
 > Return date         = 19/4/2017
+
 > Passengers          = (optional); default = 1
+
 > Price range         = 500-5000; default
+
 > Hit Search          = should get one result
 
 - One way
+
 > Origin city         = hyderabad
+
 > Destination city    = delhi
+
 > Dapature date       = 20/4/2017
+
 > Passengers          = (optional); default = 1
+
 > Price range         = 500-6000; default
+
 > Hit Search          = should get one result
 
 ## Todo
